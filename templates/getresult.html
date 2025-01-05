@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+<script type="text/javascript" src="{{ url_for('static',filename='script/script.js') }}">
+  
+</script>
+
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/submit" method='post'>
+  <label for="Science">Science:</label><br>
+  <input type="text" id="science" name="science" value="0"><br>
+  <label for="Maths">Maths:</label><br>
+  <input type="text" id="maths" name="maths" value="0"><br><br>
+  <label for="C ">C:</label><br>
+  <input type="text" id="c" name="c" value="0"><br><br>
+  <label for="datascience">Data Science:</label><br>
+  <input type="text" id="datascience" name="datascience" value="0"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/submit".</p>
+
+</body>
+</html>
+
+<!--SO THIS A BASICALLY A FORM WHICH IS MADE BY HTML ...THIS HTML FILE IS INTEGRATED WITH ROUTE(SUBMIT)..
+IN THIS FORM SOME SUBJECTS MARKS YOU HAVE TO PUT..WHATEVER MARKS WE ARE GOING TO PUT IN THIS FORM .. THAT MARKS WILL BE STORED (SUBMIT) route.. WHEN WE 
+WILL HIT ON THAT submit BUTTON THEN ... THIS WILL INTEGRATE WITH (successres) THIS ROUTE.... AND ANSWER / RESULT WILL STORED IN THAT WEB-ADDRESS ....
+(successres) IS INTEGRATED WITH (result2.html).. this HTML FILE SO ....THIS IS A PERFECT EXAMPLE OF CONNECTING 2 ROUTE/ WITH 2 HTML FILES 
+
+-->
